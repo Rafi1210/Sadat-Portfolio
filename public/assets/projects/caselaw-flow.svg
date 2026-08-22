@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" role="img" aria-label="CaseLaw retrieval flow diagram">
+  <defs>
+    <linearGradient id="cfAcc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6C63FF"/>
+      <stop offset="0.5" stop-color="#FF7AC6"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="240" fill="#0A0B14"/>
+  <g font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle">
+    <rect x="40" y="80" width="180" height="80" rx="14" fill="#1F2034"/>
+    <text x="130" y="118">User Query</text>
+    <text x="130" y="138" font-size="10" fill="#8A919D">"Digital search at border"</text>
+
+    <rect x="280" y="80" width="180" height="80" rx="14" fill="#1F2034"/>
+    <text x="370" y="118">Query Processing</text>
+    <text x="370" y="138" font-size="10" fill="#8A919D">Tokenize · expand</text>
+
+    <rect x="520" y="40" width="180" height="60" rx="14" fill="rgba(108,99,255,0.18)"/>
+    <text x="610" y="78">BM25 (lexical)</text>
+    <rect x="520" y="120" width="180" height="60" rx="14" fill="rgba(255,122,198,0.18)"/>
+    <text x="610" y="158">FAISS (semantic)</text>
+    <text x="610" y="200" font-size="10" fill="#9B8CFF">Hybrid Retrieval</text>
+
+    <rect x="760" y="80" width="180" height="80" rx="14" fill="rgba(34,211,238,0.20)"/>
+    <text x="850" y="118">Re-rank + Select</text>
+    <text x="850" y="138" font-size="10" fill="#22D3EE">Top-K context</text>
+
+    <rect x="1000" y="80" width="160" height="80" rx="14" fill="url(#cfAcc)"/>
+    <text x="1080" y="118">LLaMA 70B</text>
+    <text x="1080" y="138" font-size="10" fill="rgba(255,255,255,0.85)">via Groq</text>
+  </g>
+  <g stroke="url(#cfAcc)" stroke-width="2" fill="none">
+    <path d="M220 120 L280 120"/>
+    <path d="M460 120 L520 70"/>
+    <path d="M460 120 L520 150"/>
+    <path d="M700 70 L760 110"/>
+    <path d="M700 150 L760 130"/>
+    <path d="M940 120 L1000 120"/>
+  </g>
+  <text x="600" y="30" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11" fill="#22D3EE" letter-spacing="3">CASELAW · RETRIEVAL FLOW</text>
+</svg>

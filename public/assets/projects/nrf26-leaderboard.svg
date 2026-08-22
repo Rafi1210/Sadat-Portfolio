@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-label="NRF26 leaderboard detail">
+  <defs>
+    <linearGradient id="nlBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8F5FF"/>
+      <stop offset="1" stop-color="#FFF6F0"/>
+    </linearGradient>
+    <linearGradient id="nlAcc" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFB86B"/>
+      <stop offset="1" stop-color="#FF7AC6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#nlBg)"/>
+  <text x="80" y="80" font-family="Sora, sans-serif" font-size="28" font-weight="700" fill="#111318">Live leaderboard</text>
+  <rect x="80" y="100" width="140" height="32" rx="16" fill="rgba(34,197,94,0.18)"/>
+  <circle cx="100" cy="116" r="5" fill="#22C55E"/>
+  <text x="116" y="120" font-family="JetBrains Mono, monospace" font-size="11" fill="#15803D">LIVE · 84 teams</text>
+  <rect x="80" y="160" width="1040" height="500" rx="20" fill="#FFFFFF"/>
+  <g font-family="JetBrains Mono, monospace" font-size="11" fill="#8A919D" letter-spacing="2">
+    <text x="120" y="206">RANK</text>
+    <text x="220" y="206">TEAM</text>
+    <text x="600" y="206">INSTITUTION</text>
+    <text x="860" y="206">SEGMENT</text>
+    <text x="1080" y="206" text-anchor="end">SCORE</text>
+  </g>
+  <line x1="120" y1="220" x2="1100" y2="220" stroke="#E6E8EC"/>
+  <g>
+    <g font-family="Sora, sans-serif" font-size="14" font-weight="700" fill="#111318">
+      <text x="120" y="260">01</text>
+      <circle cx="170" cy="254" r="14" fill="#FFB86B"/>
+      <text x="194" y="260">Team Mech-a</text>
+      <text x="600" y="260" font-family="Inter, sans-serif" font-size="12" font-weight="400" fill="#5F6673">AUST · Dhaka</text>
+      <text x="860" y="260" font-family="Inter, sans-serif" font-size="12" font-weight="400" fill="#5F6673">Line Follower</text>
+      <text x="1080" y="260" text-anchor="end" fill="#22C55E">98.4</text>
+    </g>
+    <line x1="120" y1="278" x2="1100" y2="278" stroke="#F1F3F5"/>
+    <g font-family="Sora, sans-serif" font-size="14" font-weight="700" fill="#111318">
+      <text x="120" y="316">02</text>
+      <circle cx="170" cy="310" r="14" fill="#C7CCD4"/>
+      <text x="194" y="316">RoboBoys</text>
+      <text x="600" y="316" font-family="Inter, sans-serif" font-size="12" font-weight="400" fill="#5F6673">BUET · Dhaka</text>
+      <text x="860" y="316" font-family="Inter, sans-serif" font-size="12" font-weight="400" fill="#5F6673">Robo Soccer</text>
+      <text x="1080" y="316" text-anchor="end" fill="#22C55E">96.1</text>
+    </g>
+    <line x1="120" y1="334" x2="1100" y2="334" stroke="#F1F3F5"/>
+    <g font-family="Sora, sans-serif" font-size="14" font-weight="700" fill="#111318">
+      <text x="120" y="372">03</text>
+      <circle cx="170" cy="366" r="14" fill="#C08855"/>
+      <text x="194" y="372">ByteForce</text>
+      <text x="600" y="372" font-family="Inter, sans-serif" font-size="12" font-weight="400" fill="#5F6673">EWU · Dhaka</text>
+      <text x="860" y="372" font-family="Inter, sans-serif" font-size="12" font-weight="400" fill="#5F6673">Hackathon</text>
+      <text x="1080" y="372" text-anchor="end" fill="#22C55E">94.7</text>
+    </g>
+    <line x1="120" y1="390" x2="1100" y2="390" stroke="#F1F3F5"/>
+    <g font-family="Sora, sans-serif" font-size="14" font-weight="700" fill="#111318">
+      <text x="120" y="428">04</text>
+      <circle cx="170" cy="422" r="14" fill="#6C63FF"/>
+      <text x="194" y="428">Pixel Pirates</text>
+      <text x="600" y="428" font-family="Inter, sans-serif" font-size="12" font-weight="400" fill="#5F6673">NSU · Dhaka</text>
+      <text x="860" y="428" font-family="Inter, sans-serif" font-size="12" font-weight="400" fill="#5F6673">Project Showcase</text>
+      <text x="1080" y="428" text-anchor="end">93.2</text>
+    </g>
+    <line x1="120" y1="446" x2="1100" y2="446" stroke="#F1F3F5"/>
+    <g font-family="Sora, sans-serif" font-size="14" font-weight="700" fill="#111318">
+      <text x="120" y="484">05</text>
+      <circle cx="170" cy="478" r="14" fill="#FF7AC6"/>
+      <text x="194" y="484">Circuit Squad</text>
+      <text x="600" y="484" font-family="Inter, sans-serif" font-size="12" font-weight="400" fill="#5F6673">IUT · Gazipur</text>
+      <text x="860" y="484" font-family="Inter, sans-serif" font-size="12" font-weight="400" fill="#5F6673">CTF</text>
+      <text x="1080" y="484" text-anchor="end">91.8</text>
+    </g>
+    <line x1="120" y1="502" x2="1100" y2="502" stroke="#F1F3F5"/>
+    <g font-family="Sora, sans-serif" font-size="14" font-weight="700" fill="#111318">
+      <text x="120" y="540">06</text>
+      <circle cx="170" cy="534" r="14" fill="#22D3EE"/>
+      <text x="194" y="540">Ctrl+Alt+Defeat</text>
+      <text x="600" y="540" font-family="Inter, sans-serif" font-size="12" font-weight="400" fill="#5F6673">DU · Dhaka</text>
+      <text x="860" y="540" font-family="Inter, sans-serif" font-size="12" font-weight="400" fill="#5F6673">Gaming</text>
+      <text x="1080" y="540" text-anchor="end">89.4</text>
+    </g>
+    <line x1="120" y1="558" x2="1100" y2="558" stroke="#F1F3F5"/>
+    <g font-family="Sora, sans-serif" font-size="14" font-weight="700" fill="#111318">
+      <text x="120" y="596">07</text>
+      <circle cx="170" cy="590" r="14" fill="#A3FF6C"/>
+      <text x="194" y="596">404NotFound</text>
+      <text x="600" y="596" font-family="Inter, sans-serif" font-size="12" font-weight="400" fill="#5F6673">BRAC · Dhaka</text>
+      <text x="860" y="596" font-family="Inter, sans-serif" font-size="12" font-weight="400" fill="#5F6673">Hackathon</text>
+      <text x="1080" y="596" text-anchor="end">87.1</text>
+    </g>
+  </g>
+</svg>

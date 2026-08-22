@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-label="NRF26 event platform">
+  <defs>
+    <linearGradient id="nBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFF6F0"/>
+      <stop offset="1" stop-color="#F0F0FF"/>
+    </linearGradient>
+    <linearGradient id="nGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6C63FF"/>
+      <stop offset="0.5" stop-color="#FF7AC6"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <pattern id="nGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 L0 0 0 40" fill="none" stroke="rgba(17,19,24,0.05)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="720" fill="url(#nBg)"/>
+  <rect width="1200" height="720" fill="url(#nGrid)"/>
+
+  <g>
+    <rect x="40" y="40" width="1120" height="100" rx="20" fill="#111318"/>
+    <rect x="40" y="40" width="1120" height="100" rx="20" fill="url(#nGrad)" opacity="0.18"/>
+    <text x="68" y="84" font-family="JetBrains Mono, monospace" font-size="11" fill="#22D3EE" letter-spacing="3">EWU NATIONAL ROBOFEST 2026</text>
+    <text x="68" y="118" font-family="Sora, sans-serif" font-size="28" font-weight="800" fill="#FFFFFF">2,000+ builders · 80 institutions · 1 festival</text>
+    <circle cx="1100" cy="90" r="30" fill="#FF7AC6"/>
+    <text x="1100" y="96" text-anchor="middle" font-family="Sora, sans-serif" font-size="12" font-weight="800" fill="#FFFFFF">NRF</text>
+    <text x="1100" y="108" text-anchor="middle" font-family="Sora, sans-serif" font-size="9" font-weight="800" fill="#FFFFFF">'26</text>
+  </g>
+
+  <g>
+    <rect x="40" y="160" width="380" height="320" rx="20" fill="#FFFFFF"/>
+    <text x="60" y="190" font-family="JetBrains Mono, monospace" font-size="10" fill="#6C63FF" letter-spacing="2">PROFILE FRAME GENERATOR</text>
+    <rect x="60" y="210" width="340" height="220" rx="14" fill="url(#nGrad)" opacity="0.85"/>
+    <rect x="80" y="230" width="300" height="180" rx="10" fill="rgba(0,0,0,0.25)"/>
+    <circle cx="230" cy="300" r="60" fill="#FFFFFF"/>
+    <text x="230" y="308" text-anchor="middle" font-family="Sora, sans-serif" font-size="22" font-weight="800" fill="#111318">Rafi</text>
+    <text x="230" y="332" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10" fill="#5F6673" letter-spacing="2">EWU · CSE</text>
+    <text x="80" y="380" font-family="Sora, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">Compete. Build. Ship.</text>
+    <text x="80" y="396" font-family="Inter, sans-serif" font-size="11" fill="rgba(255,255,255,0.85)">Generated · 12:04 PM · NRF26</text>
+    <rect x="60" y="448" width="160" height="22" rx="6" fill="rgba(108,99,255,0.18)"/>
+    <text x="140" y="463" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10" fill="#6C63FF">2,140 frames generated</text>
+  </g>
+
+  <g>
+    <rect x="440" y="160" width="380" height="320" rx="20" fill="#FFFFFF"/>
+    <text x="460" y="190" font-family="JetBrains Mono, monospace" font-size="10" fill="#FF7AC6" letter-spacing="2">LEADERBOARD · LIVE</text>
+    <g font-family="Inter, sans-serif" font-size="12" fill="#111318">
+      <text x="460" y="220" font-family="JetBrains Mono, monospace" font-size="9" fill="#8A919D" letter-spacing="2">RANK</text>
+      <text x="540" y="220" font-family="JetBrains Mono, monospace" font-size="9" fill="#8A919D" letter-spacing="2">TEAM</text>
+      <text x="780" y="220" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="9" fill="#8A919D" letter-spacing="2">SCORE</text>
+    </g>
+    <line x1="460" y1="232" x2="800" y2="232" stroke="#E6E8EC"/>
+    <g font-family="Sora, sans-serif" font-size="13" font-weight="700" fill="#111318">
+      <text x="460" y="258">01</text>
+      <circle cx="496" cy="252" r="10" fill="#6C63FF"/>
+      <text x="540" y="258">Team Mech-a</text>
+      <text x="800" y="258" text-anchor="end">98.4</text>
+      <line x1="460" y1="276" x2="800" y2="276" stroke="#F1F3F5"/>
+      <text x="460" y="300">02</text>
+      <circle cx="496" cy="294" r="10" fill="#FF7AC6"/>
+      <text x="540" y="300">RoboBoys</text>
+      <text x="800" y="300" text-anchor="end">96.1</text>
+      <line x1="460" y1="318" x2="800" y2="318" stroke="#F1F3F5"/>
+      <text x="460" y="342">03</text>
+      <circle cx="496" cy="336" r="10" fill="#22D3EE"/>
+      <text x="540" y="342">ByteForce</text>
+      <text x="800" y="342" text-anchor="end">94.7</text>
+      <line x1="460" y1="360" x2="800" y2="360" stroke="#F1F3F5"/>
+      <text x="460" y="384">04</text>
+      <circle cx="496" cy="378" r="10" fill="#A3FF6C"/>
+      <text x="540" y="384">Pixel Pirates</text>
+      <text x="800" y="384" text-anchor="end">93.2</text>
+      <line x1="460" y1="402" x2="800" y2="402" stroke="#F1F3F5"/>
+      <text x="460" y="426">05</text>
+      <circle cx="496" cy="420" r="10" fill="#FFB86B"/>
+      <text x="540" y="426">Circuit Squad</text>
+      <text x="800" y="426" text-anchor="end">91.8</text>
+    </g>
+    <rect x="460" y="448" width="120" height="22" rx="6" fill="rgba(255,122,198,0.18)"/>
+    <text x="520" y="463" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10" fill="#FF4FB6">● Live · 84 teams</text>
+  </g>
+
+  <g>
+    <rect x="840" y="160" width="320" height="320" rx="20" fill="#111318"/>
+    <text x="860" y="190" font-family="JetBrains Mono, monospace" font-size="10" fill="#22D3EE" letter-spacing="2">SIGNAL SURGE · ARCADE</text>
+    <g stroke="rgba(108,99,255,0.18)" stroke-width="1">
+      <line x1="860" y1="220" x2="1140" y2="220"/>
+      <line x1="860" y1="280" x2="1140" y2="280"/>
+      <line x1="860" y1="340" x2="1140" y2="340"/>
+      <line x1="860" y1="400" x2="1140" y2="400"/>
+      <line x1="900" y1="200" x2="900" y2="420"/>
+      <line x1="980" y1="200" x2="980" y2="420"/>
+      <line x1="1060" y1="200" x2="1060" y2="420"/>
+    </g>
+    <circle cx="900" cy="240" r="10" fill="#22D3EE"/>
+    <circle cx="980" cy="280" r="10" fill="#FF7AC6"/>
+    <circle cx="1060" cy="340" r="10" fill="#6C63FF"/>
+    <circle cx="940" cy="380" r="10" fill="#A3FF6C"/>
+    <polyline points="900,240 940,260 980,280 1020,310 1060,340" fill="none" stroke="url(#nGrad)" stroke-width="3" stroke-linecap="round"/>
+    <text x="860" y="460" font-family="JetBrains Mono, monospace" font-size="10" fill="rgba(255,255,255,0.6)" letter-spacing="2">SCORE · 12,480</text>
+    <rect x="1080" y="448" width="60" height="22" rx="6" fill="url(#nGrad)"/>
+    <text x="1110" y="463" text-anchor="middle" font-family="Sora, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">PLAY</text>
+  </g>
+
+  <g>
+    <rect x="40" y="500" width="1120" height="180" rx="20" fill="#FFFFFF"/>
+    <text x="60" y="532" font-family="JetBrains Mono, monospace" font-size="10" fill="#6C63FF" letter-spacing="2">EVENT PLATFORM · NRF26</text>
+    <g font-family="Sora, sans-serif" font-size="36" font-weight="800" fill="#111318">
+      <text x="60" y="586">2,000<tspan font-size="20" fill="#6C63FF">+</tspan></text>
+      <text x="60" y="610" font-family="Inter, sans-serif" font-size="11" font-weight="500" fill="#5F6673">Participants</text>
+      <text x="240" y="586">80<tspan font-size="20" fill="#FF7AC6">+</tspan></text>
+      <text x="240" y="610" font-family="Inter, sans-serif" font-size="11" font-weight="500" fill="#5F6673">Institutions</text>
+      <text x="420" y="586">20<tspan font-size="20" fill="#22D3EE">+</tspan></text>
+      <text x="420" y="610" font-family="Inter, sans-serif" font-size="11" font-weight="500" fill="#5F6673">Partners</text>
+      <text x="600" y="586">7</text>
+      <text x="600" y="610" font-family="Inter, sans-serif" font-size="11" font-weight="500" fill="#5F6673">Event segments</text>
+      <text x="780" y="586">5</text>
+      <text x="780" y="610" font-family="Inter, sans-serif" font-size="11" font-weight="500" fill="#5F6673">Web tools shipped</text>
+    </g>
+    <rect x="1000" y="568" width="140" height="48" rx="14" fill="#111318"/>
+    <text x="1070" y="598" text-anchor="middle" font-family="Sora, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">View recap →</text>
+  </g>
+
+  <text x="1140" y="700" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="11" fill="#5F6673">NRF26 / event platform</text>
+</svg>

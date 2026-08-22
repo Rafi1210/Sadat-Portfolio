@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-label="Dropify map detail view">
+  <defs>
+    <linearGradient id="dmBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F4F1FF"/>
+      <stop offset="1" stop-color="#FFE6F4"/>
+    </linearGradient>
+    <linearGradient id="dmRoute" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6C63FF"/>
+      <stop offset="1" stop-color="#FF7AC6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#dmBg)"/>
+  <g stroke="#E6E8EC" stroke-width="20" fill="none" stroke-linecap="round">
+    <path d="M60 200 L1140 220"/>
+    <path d="M60 420 L1140 440"/>
+    <path d="M300 60 L320 660"/>
+    <path d="M780 60 L800 660"/>
+  </g>
+  <g stroke="#F1F3F5" stroke-width="10" fill="none" stroke-linecap="round">
+    <path d="M120 80 L380 320"/>
+    <path d="M520 120 L640 540"/>
+    <path d="M880 80 L960 600"/>
+    <path d="M1020 100 L1100 380"/>
+  </g>
+  <polyline points="180,560 320,440 460,480 620,320 780,380 920,260 1060,320" fill="none" stroke="url(#dmRoute)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <g>
+    <circle cx="180" cy="560" r="16" fill="#6C63FF"/><circle cx="180" cy="560" r="6" fill="#FFFFFF"/>
+    <circle cx="320" cy="440" r="16" fill="#6C63FF"/><circle cx="320" cy="440" r="6" fill="#FFFFFF"/>
+    <circle cx="460" cy="480" r="16" fill="#6C63FF"/><circle cx="460" cy="480" r="6" fill="#FFFFFF"/>
+    <circle cx="620" cy="320" r="16" fill="#6C63FF"/><circle cx="620" cy="320" r="6" fill="#FFFFFF"/>
+    <circle cx="780" cy="380" r="16" fill="#6C63FF"/><circle cx="780" cy="380" r="6" fill="#FFFFFF"/>
+    <circle cx="920" cy="260" r="16" fill="#6C63FF"/><circle cx="920" cy="260" r="6" fill="#FFFFFF"/>
+    <circle cx="1060" cy="320" r="16" fill="#6C63FF"/><circle cx="1060" cy="320" r="6" fill="#FFFFFF"/>
+  </g>
+  <rect x="700" y="300" width="56" height="56" rx="14" fill="#111318"/>
+  <text x="728" y="338" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="22" font-weight="700" fill="#FFFFFF">P</text>
+  <text x="60" y="50" font-family="JetBrains Mono, monospace" font-size="11" fill="#6C63FF" letter-spacing="2">DROP · DROP / MAP DETAIL</text>
+</svg>

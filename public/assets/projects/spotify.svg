@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-label="Spotify recommendation dashboard">
+  <defs>
+    <linearGradient id="sBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F0FBFF"/>
+      <stop offset="1" stop-color="#F5FFE9"/>
+    </linearGradient>
+    <linearGradient id="sBar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1DB954"/>
+      <stop offset="1" stop-color="#0F7A36"/>
+    </linearGradient>
+    <linearGradient id="sCard" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E7FBFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#sBg)"/>
+
+  <!-- header -->
+  <g>
+    <rect x="40" y="40" width="1120" height="64" rx="20" fill="#FFFFFF"/>
+    <circle cx="78" cy="72" r="16" fill="url(#sBar)"/>
+    <text x="106" y="78" font-family="Sora, sans-serif" font-size="16" font-weight="800" fill="#111318">Spotify Recommender</text>
+    <rect x="780" y="56" width="220" height="32" rx="16" fill="#F1F3F5"/>
+    <text x="800" y="76" font-family="Inter, sans-serif" font-size="12" fill="#8A919D">Search tracks</text>
+    <circle cx="1080" cy="72" r="18" fill="#6C63FF"/>
+    <text x="1080" y="78" text-anchor="middle" font-family="Sora, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">R</text>
+  </g>
+
+  <!-- seed track -->
+  <g>
+    <rect x="40" y="124" width="380" height="220" rx="20" fill="url(#sCard)" stroke="rgba(29,185,84,0.18)"/>
+    <text x="64" y="156" font-family="JetBrains Mono, monospace" font-size="10" fill="#1DB954" letter-spacing="2">SEED TRACK</text>
+    <rect x="64" y="170" width="80" height="80" rx="12" fill="#111318"/>
+    <circle cx="104" cy="210" r="14" fill="url(#sBar)"/>
+    <text x="64" y="280" font-family="Sora, sans-serif" font-size="16" font-weight="700" fill="#111318">Midnight City</text>
+    <text x="64" y="300" font-family="Inter, sans-serif" font-size="12" fill="#5F6673">M83 · Hurry Up, We're Dreaming</text>
+    <!-- audio feature bars -->
+    <g font-family="JetBrains Mono, monospace" font-size="9" fill="#5F6673">
+      <text x="64" y="324">ENERGY</text>
+      <rect x="140" y="316" width="240" height="6" rx="3" fill="#F1F3F5"/>
+      <rect x="140" y="316" width="200" height="6" rx="3" fill="#1DB954"/>
+    </g>
+  </g>
+
+  <!-- similarity radial viz -->
+  <g>
+    <rect x="440" y="124" width="380" height="220" rx="20" fill="#FFFFFF"/>
+    <text x="464" y="156" font-family="JetBrains Mono, monospace" font-size="10" fill="#6C63FF" letter-spacing="2">SIMILARITY MAP</text>
+    <circle cx="630" cy="240" r="80" fill="none" stroke="rgba(108,99,255,0.18)" stroke-width="1"/>
+    <circle cx="630" cy="240" r="60" fill="none" stroke="rgba(108,99,255,0.30)" stroke-width="1"/>
+    <circle cx="630" cy="240" r="40" fill="none" stroke="rgba(108,99,255,0.50)" stroke-width="1"/>
+    <circle cx="630" cy="240" r="14" fill="url(#sBar)"/>
+    <circle cx="600" cy="200" r="8" fill="#6C63FF"/>
+    <circle cx="670" cy="220" r="8" fill="#FF7AC6"/>
+    <circle cx="650" cy="290" r="8" fill="#22D3EE"/>
+    <circle cx="580" cy="280" r="8" fill="#1DB954"/>
+    <circle cx="690" cy="260" r="8" fill="#FFB86B"/>
+  </g>
+
+  <!-- top 5 list -->
+  <g>
+    <rect x="840" y="124" width="320" height="540" rx="20" fill="#FFFFFF"/>
+    <text x="864" y="156" font-family="JetBrains Mono, monospace" font-size="10" fill="#111318" letter-spacing="2">TOP 5 · COSINE SIM</text>
+    <g font-family="Sora, sans-serif" font-size="13" font-weight="600" fill="#111318">
+      <rect x="864" y="180" width="272" height="60" rx="12" fill="#F0FBFF"/>
+      <circle cx="888" cy="210" r="18" fill="#FF7AC6"/>
+      <text x="916" y="206">Sunset Lover</text>
+      <text x="916" y="222" font-family="Inter, sans-serif" font-size="11" fill="#5F6673" font-weight="400">Petit Biscuit</text>
+      <text x="1116" y="216" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="11" fill="#1DB954">0.94</text>
+
+      <rect x="864" y="252" width="272" height="60" rx="12" fill="#F0FBFF"/>
+      <circle cx="888" cy="282" r="18" fill="#6C63FF"/>
+      <text x="916" y="278">Outro</text>
+      <text x="916" y="294" font-family="Inter, sans-serif" font-size="11" fill="#5F6673" font-weight="400">M83</text>
+      <text x="1116" y="288" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="11" fill="#1DB954">0.91</text>
+
+      <rect x="864" y="324" width="272" height="60" rx="12" fill="#F0FBFF"/>
+      <circle cx="888" cy="354" r="18" fill="#22D3EE"/>
+      <text x="916" y="350">Re:Stacks</text>
+      <text x="916" y="366" font-family="Inter, sans-serif" font-size="11" fill="#5F6673" font-weight="400">Bon Iver</text>
+      <text x="1116" y="360" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="11" fill="#1DB954">0.88</text>
+
+      <rect x="864" y="396" width="272" height="60" rx="12" fill="#F0FBFF"/>
+      <circle cx="888" cy="426" r="18" fill="#FFB86B"/>
+      <text x="916" y="422">Weightless</text>
+      <text x="916" y="438" font-family="Inter, sans-serif" font-size="11" fill="#5F6673" font-weight="400">Marconi Union</text>
+      <text x="1116" y="432" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="11" fill="#1DB954">0.86</text>
+
+      <rect x="864" y="468" width="272" height="60" rx="12" fill="#F0FBFF"/>
+      <circle cx="888" cy="498" r="18" fill="#A3FF6C"/>
+      <text x="916" y="494">Intro</text>
+      <text x="916" y="510" font-family="Inter, sans-serif" font-size="11" fill="#5F6673" font-weight="400">The xx</text>
+      <text x="1116" y="504" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="11" fill="#1DB954">0.83</text>
+    </g>
+  </g>
+
+  <!-- bottom: feature chart -->
+  <g>
+    <rect x="40" y="364" width="780" height="300" rx="20" fill="#FFFFFF"/>
+    <text x="64" y="396" font-family="JetBrains Mono, monospace" font-size="10" fill="#1DB954" letter-spacing="2">AUDIO FEATURE VECTOR</text>
+    <!-- chart bars -->
+    <g font-family="JetBrains Mono, monospace" font-size="10" fill="#5F6673">
+      <text x="120" y="436">tempo</text>
+      <rect x="200" y="424" width="540" height="14" rx="7" fill="#F1F3F5"/>
+      <rect x="200" y="424" width="430" height="14" rx="7" fill="#1DB954"/>
+      <text x="120" y="468">energy</text>
+      <rect x="200" y="456" width="540" height="14" rx="7" fill="#F1F3F5"/>
+      <rect x="200" y="456" width="380" height="14" rx="7" fill="#6C63FF"/>
+      <text x="120" y="500">danceability</text>
+      <rect x="200" y="488" width="540" height="14" rx="7" fill="#F1F3F5"/>
+      <rect x="200" y="488" width="470" height="14" rx="7" fill="#FF7AC6"/>
+      <text x="120" y="532">valence</text>
+      <rect x="200" y="520" width="540" height="14" rx="7" fill="#F1F3F5"/>
+      <rect x="200" y="520" width="300" height="14" rx="7" fill="#22D3EE"/>
+      <text x="120" y="564">acousticness</text>
+      <rect x="200" y="552" width="540" height="14" rx="7" fill="#F1F3F5"/>
+      <rect x="200" y="552" width="180" height="14" rx="7" fill="#FFB86B"/>
+      <text x="120" y="596">liveness</text>
+      <rect x="200" y="584" width="540" height="14" rx="7" fill="#F1F3F5"/>
+      <rect x="200" y="584" width="240" height="14" rx="7" fill="#A3FF6C"/>
+    </g>
+    <text x="64" y="640" font-family="Inter, sans-serif" font-size="11" fill="#8A919D">Feature weights tuned over 2,400 Spotify tracks</text>
+  </g>
+
+  <text x="1140" y="700" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="11" fill="#5F6673">Spotify / Recommendation dashboard</text>
+</svg>

@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-label="Dropify route optimisation app">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F0F1FF"/>
+      <stop offset="1" stop-color="#FFE9F3"/>
+    </linearGradient>
+    <linearGradient id="route" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6C63FF"/>
+      <stop offset="0.5" stop-color="#FF7AC6"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6C63FF"/>
+      <stop offset="1" stop-color="#9B8CFF"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0 L0 0 0 48" fill="none" stroke="rgba(17,19,24,0.05)" stroke-width="1"/>
+    </pattern>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feOffset in="b" dx="0" dy="6" result="ob"/>
+      <feFlood flood-color="#6C63FF" flood-opacity="0.25"/>
+      <feComposite in2="ob" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="720" fill="url(#bg)"/>
+  <rect width="1200" height="720" fill="url(#grid)"/>
+
+  <!-- Sidebar -->
+  <g>
+    <rect x="40" y="40" width="200" height="640" rx="20" fill="#FFFFFF" opacity="0.85"/>
+    <circle cx="80" cy="86" r="14" fill="url(#violet)"/>
+    <text x="106" y="92" font-family="Sora, sans-serif" font-size="14" font-weight="700" fill="#111318">Dropify</text>
+    <g font-family="Inter, sans-serif" font-size="12" fill="#5F6673">
+      <rect x="60" y="140" width="160" height="36" rx="10" fill="#F1F3F5"/>
+      <circle cx="80" cy="158" r="4" fill="#6C63FF"/>
+      <text x="96" y="162" fill="#111318" font-weight="600">Routes</text>
+      <circle cx="80" cy="206" r="4" fill="#C7CCD4"/>
+      <text x="96" y="210">Drivers</text>
+      <circle cx="80" cy="254" r="4" fill="#C7CCD4"/>
+      <text x="96" y="258">Analytics</text>
+      <circle cx="80" cy="302" r="4" fill="#C7CCD4"/>
+      <text x="96" y="306">Settings</text>
+    </g>
+    <rect x="60" y="580" width="160" height="80" rx="14" fill="#111318"/>
+    <circle cx="86" cy="606" r="14" fill="#22D3EE"/>
+    <text x="110" y="610" font-family="Sora, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">Hub #4</text>
+    <text x="110" y="628" font-family="Inter, sans-serif" font-size="11" fill="#8A919D">3 active</text>
+  </g>
+
+  <!-- Map -->
+  <g>
+    <rect x="270" y="40" width="890" height="640" rx="20" fill="#FFFFFF" opacity="0.7"/>
+    <!-- roads -->
+    <g stroke="#E6E8EC" stroke-width="22" fill="none" stroke-linecap="round">
+      <path d="M310 180 L1150 200"/>
+      <path d="M310 380 L1150 360"/>
+      <path d="M310 580 L1150 560"/>
+      <path d="M450 60 L470 660"/>
+      <path d="M780 60 L800 660"/>
+    </g>
+    <g stroke="#F1F3F5" stroke-width="10" fill="none" stroke-linecap="round">
+      <path d="M340 100 L520 280"/>
+      <path d="M620 120 L720 480"/>
+      <path d="M860 100 L920 540"/>
+      <path d="M980 140 L1100 380"/>
+    </g>
+    <!-- route -->
+    <polyline points="370,500 520,360 670,400 820,250 970,300 1100,200"
+              fill="none" stroke="url(#route)" stroke-width="8"
+              stroke-linecap="round" stroke-linejoin="round" filter="url(#shadow)"/>
+    <!-- parking P -->
+    <g>
+      <rect x="600" y="220" width="60" height="60" rx="14" fill="#111318"/>
+      <text x="630" y="262" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="26" font-weight="700" fill="#FFFFFF">P</text>
+    </g>
+    <!-- pins -->
+    <g filter="url(#shadow)">
+      <circle cx="370" cy="500" r="14" fill="url(#violet)"/>
+      <circle cx="370" cy="500" r="5" fill="#FFFFFF"/>
+      <circle cx="520" cy="360" r="14" fill="url(#violet)"/>
+      <circle cx="520" cy="360" r="5" fill="#FFFFFF"/>
+      <circle cx="670" cy="400" r="14" fill="url(#violet)"/>
+      <circle cx="670" cy="400" r="5" fill="#FFFFFF"/>
+      <circle cx="820" cy="250" r="14" fill="url(#violet)"/>
+      <circle cx="820" cy="250" r="5" fill="#FFFFFF"/>
+      <circle cx="970" cy="300" r="14" fill="url(#violet)"/>
+      <circle cx="970" cy="300" r="5" fill="#FFFFFF"/>
+      <circle cx="1100" cy="200" r="14" fill="url(#violet)"/>
+      <circle cx="1100" cy="200" r="5" fill="#FFFFFF"/>
+    </g>
+  </g>
+
+  <!-- Top stats chip -->
+  <g>
+    <rect x="310" y="80" width="280" height="86" rx="16" fill="#FFFFFF" opacity="0.95"/>
+    <text x="330" y="108" font-family="JetBrains Mono, monospace" font-size="10" fill="#8A919D" letter-spacing="2">OPTIMIZED ROUTE</text>
+    <text x="330" y="140" font-family="Sora, sans-serif" font-size="22" font-weight="800" fill="#111318">6 stops</text>
+    <text x="430" y="140" font-family="Sora, sans-serif" font-size="22" font-weight="800" fill="#6C63FF">·</text>
+    <text x="450" y="140" font-family="Sora, sans-serif" font-size="22" font-weight="800" fill="#111318">2.1km walk</text>
+    <rect x="330" y="148" width="240" height="6" rx="3" fill="#F1F3F5"/>
+    <rect x="330" y="148" width="180" height="6" rx="3" fill="url(#route)"/>
+  </g>
+
+  <!-- bottom right card -->
+  <g>
+    <rect x="900" y="540" width="240" height="110" rx="16" fill="#FFFFFF" opacity="0.95"/>
+    <text x="920" y="568" font-family="JetBrains Mono, monospace" font-size="10" fill="#8A919D" letter-spacing="2">DRIVER</text>
+    <circle cx="940" cy="606" r="18" fill="#FF7AC6"/>
+    <text x="940" y="612" text-anchor="middle" font-family="Sora, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">S</text>
+    <text x="970" y="600" font-family="Sora, sans-serif" font-size="13" font-weight="700" fill="#111318">Sabir H.</text>
+    <text x="970" y="616" font-family="Inter, sans-serif" font-size="11" fill="#5F6673">ETA 14:32</text>
+    <rect x="920" y="630" width="200" height="2" rx="1" fill="#E6E8EC"/>
+    <text x="920" y="616" font-family="Inter, sans-serif" font-size="10" fill="#22D3EE" font-weight="600">●</text>
+  </g>
+
+  <text x="1140" y="700" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="11" fill="#5F6673">Dropify / Hub dashboard</text>
+</svg>

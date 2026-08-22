@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-label="Signal Surge arcade game">
+  <defs>
+    <linearGradient id="ngBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0A0B14"/>
+      <stop offset="1" stop-color="#1A1B2E"/>
+    </linearGradient>
+    <linearGradient id="ngAcc" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6C63FF"/>
+      <stop offset="0.5" stop-color="#FF7AC6"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#ngBg)"/>
+  <text x="80" y="70" font-family="Sora, sans-serif" font-size="22" font-weight="800" fill="#FFFFFF">Signal Surge</text>
+  <text x="80" y="96" font-family="JetBrains Mono, monospace" font-size="11" fill="#22D3EE" letter-spacing="2">EWU NATIONAL ROBOFEST 2026</text>
+  <rect x="80" y="120" width="1040" height="500" rx="20" fill="#0E0F1A" stroke="rgba(108,99,255,0.30)" stroke-width="2"/>
+  <g stroke="rgba(108,99,255,0.20)" stroke-width="1">
+    <line x1="80" y1="240" x2="1120" y2="240"/>
+    <line x1="80" y1="320" x2="1120" y2="320"/>
+    <line x1="80" y1="400" x2="1120" y2="400"/>
+    <line x1="80" y1="480" x2="1120" y2="480"/>
+    <line x1="240" y1="120" x2="240" y2="620"/>
+    <line x1="400" y1="120" x2="400" y2="620"/>
+    <line x1="560" y1="120" x2="560" y2="620"/>
+    <line x1="720" y1="120" x2="720" y2="620"/>
+    <line x1="880" y1="120" x2="880" y2="620"/>
+    <line x1="1040" y1="120" x2="1040" y2="620"/>
+  </g>
+  <circle cx="160" cy="200" r="14" fill="#22D3EE"/>
+  <circle cx="240" cy="280" r="14" fill="#FF7AC6"/>
+  <circle cx="320" cy="200" r="14" fill="#6C63FF"/>
+  <circle cx="480" cy="360" r="14" fill="#A3FF6C"/>
+  <circle cx="640" cy="280" r="14" fill="#FFB86B"/>
+  <circle cx="800" cy="440" r="14" fill="#22D3EE"/>
+  <circle cx="960" cy="320" r="14" fill="#FF7AC6"/>
+  <circle cx="1040" cy="480" r="14" fill="#6C63FF"/>
+  <polyline points="160,200 240,280 320,200 480,360 640,280 800,440 960,320 1040,480"
+            fill="none" stroke="url(#ngAcc)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="100" y="180" font-family="JetBrains Mono, monospace" font-size="10" fill="#22D3EE" letter-spacing="2">SCORE</text>
+  <text x="100" y="216" font-family="Sora, sans-serif" font-size="28" font-weight="800" fill="#FFFFFF">12,480</text>
+  <rect x="80" y="660" width="1040" height="40" rx="20" fill="rgba(255,255,255,0.05)"/>
+  <text x="100" y="684" font-family="JetBrains Mono, monospace" font-size="11" fill="#8A919D" letter-spacing="2">COMBO · x4</text>
+  <text x="320" y="684" font-family="JetBrains Mono, monospace" font-size="11" fill="#8A919D" letter-spacing="2">BEST · 18,210</text>
+  <rect x="1000" y="668" width="100" height="24" rx="12" fill="url(#ngAcc)"/>
+  <text x="1050" y="684" text-anchor="middle" font-family="Sora, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">REPLAY →</text>
+</svg>

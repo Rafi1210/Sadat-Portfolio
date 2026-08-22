@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-label="TraceQ lost and found platform">
+  <defs>
+    <linearGradient id="tBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F5F0FF"/>
+      <stop offset="1" stop-color="#E9F0FF"/>
+    </linearGradient>
+    <linearGradient id="tViolet" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6C63FF"/>
+      <stop offset="1" stop-color="#9B8CFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#tBg)"/>
+
+  <!-- header -->
+  <g>
+    <rect x="40" y="40" width="1120" height="76" rx="20" fill="#FFFFFF"/>
+    <circle cx="80" cy="78" r="20" fill="url(#tViolet)"/>
+    <text x="112" y="84" font-family="Sora, sans-serif" font-size="18" font-weight="800" fill="#111318">TraceQ</text>
+    <text x="112" y="100" font-family="Inter, sans-serif" font-size="11" fill="#5F6673">Lost &amp; found for campuses</text>
+    <g font-family="Inter, sans-serif" font-size="12" fill="#111318">
+      <rect x="700" y="58" width="80" height="40" rx="20" fill="#F1F3F5"/>
+      <text x="740" y="82" text-anchor="middle">Feed</text>
+      <rect x="788" y="58" width="80" height="40" rx="20" fill="#111318"/>
+      <text x="828" y="82" text-anchor="middle" fill="#FFFFFF">Post</text>
+      <rect x="876" y="58" width="80" height="40" rx="20" fill="#F1F3F5"/>
+      <text x="916" y="82" text-anchor="middle">Matches</text>
+    </g>
+    <circle cx="1100" cy="78" r="20" fill="#22D3EE"/>
+    <text x="1100" y="84" text-anchor="middle" font-family="Sora, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">A</text>
+  </g>
+
+  <!-- Filter -->
+  <g>
+    <rect x="40" y="136" width="1120" height="56" rx="16" fill="#FFFFFF"/>
+    <text x="64" y="170" font-family="JetBrains Mono, monospace" font-size="10" fill="#8A919D" letter-spacing="2">FILTER</text>
+    <rect x="160" y="148" width="80" height="32" rx="16" fill="#111318"/>
+    <text x="200" y="168" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#FFFFFF">All</text>
+    <rect x="252" y="148" width="100" height="32" rx="16" fill="#F1F3F5"/>
+    <text x="302" y="168" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#111318">Electronics</text>
+    <rect x="364" y="148" width="100" height="32" rx="16" fill="#F1F3F5"/>
+    <text x="414" y="168" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#111318">Books</text>
+    <rect x="476" y="148" width="100" height="32" rx="16" fill="#F1F3F5"/>
+    <text x="526" y="168" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#111318">Keys</text>
+    <rect x="588" y="148" width="100" height="32" rx="16" fill="#F1F3F5"/>
+    <text x="638" y="168" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#111318">Bags</text>
+  </g>
+
+  <!-- feed cards -->
+  <g>
+    <rect x="40" y="216" width="540" height="160" rx="20" fill="#FFFFFF"/>
+    <rect x="60" y="236" width="120" height="120" rx="14" fill="url(#tViolet)"/>
+    <circle cx="120" cy="296" r="28" fill="#FFFFFF" opacity="0.85"/>
+    <text x="120" y="304" text-anchor="middle" font-family="Sora, sans-serif" font-size="22" font-weight="800" fill="#6C63FF">⌚</text>
+    <text x="200" y="260" font-family="JetBrains Mono, monospace" font-size="10" fill="#8A919D" letter-spacing="2">FOUND · TODAY</text>
+    <text x="200" y="290" font-family="Sora, sans-serif" font-size="18" font-weight="700" fill="#111318">Black smartwatch, leather strap</text>
+    <text x="200" y="312" font-family="Inter, sans-serif" font-size="12" fill="#5F6673">Library, 3rd floor near window</text>
+    <rect x="200" y="328" width="80" height="22" rx="6" fill="rgba(108,99,255,0.12)"/>
+    <text x="240" y="343" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10" fill="#6C63FF">3 matches</text>
+    <text x="540" y="358" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="10" fill="#22D3EE">● LIVE</text>
+
+    <rect x="620" y="216" width="540" height="160" rx="20" fill="#FFFFFF"/>
+    <rect x="640" y="236" width="120" height="120" rx="14" fill="#FF7AC6"/>
+    <circle cx="700" cy="296" r="28" fill="#FFFFFF" opacity="0.85"/>
+    <text x="700" y="304" text-anchor="middle" font-family="Sora, sans-serif" font-size="22" font-weight="800" fill="#FF7AC6">📖</text>
+    <text x="780" y="260" font-family="JetBrains Mono, monospace" font-size="10" fill="#8A919D" letter-spacing="2">LOST · 2H AGO</text>
+    <text x="780" y="290" font-family="Sora, sans-serif" font-size="18" font-weight="700" fill="#111318">Calculus textbook (Stewart)</text>
+    <text x="780" y="312" font-family="Inter, sans-serif" font-size="12" fill="#5F6673">CAF block, room 204</text>
+    <rect x="780" y="328" width="120" height="22" rx="6" fill="rgba(255,122,198,0.18)"/>
+    <text x="840" y="343" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10" fill="#FF4FB6">5 matches</text>
+
+    <rect x="40" y="396" width="540" height="160" rx="20" fill="#FFFFFF"/>
+    <rect x="60" y="416" width="120" height="120" rx="14" fill="#22D3EE"/>
+    <circle cx="120" cy="476" r="28" fill="#FFFFFF" opacity="0.85"/>
+    <text x="120" y="484" text-anchor="middle" font-family="Sora, sans-serif" font-size="22" font-weight="800" fill="#22D3EE">🔑</text>
+    <text x="200" y="440" font-family="JetBrains Mono, monospace" font-size="10" fill="#8A919D" letter-spacing="2">FOUND · YESTERDAY</text>
+    <text x="200" y="470" font-family="Sora, sans-serif" font-size="18" font-weight="700" fill="#111318">Keys with blue lanyard</text>
+    <text x="200" y="492" font-family="Inter, sans-serif" font-size="12" fill="#5F6673">Sports complex, gate 2</text>
+    <rect x="200" y="508" width="80" height="22" rx="6" fill="rgba(34,211,238,0.18)"/>
+    <text x="240" y="523" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10" fill="#22D3EE">1 match</text>
+
+    <rect x="620" y="396" width="540" height="160" rx="20" fill="#FFFFFF"/>
+    <rect x="640" y="416" width="120" height="120" rx="14" fill="#FFB86B"/>
+    <circle cx="700" cy="476" r="28" fill="#FFFFFF" opacity="0.85"/>
+    <text x="700" y="484" text-anchor="middle" font-family="Sora, sans-serif" font-size="22" font-weight="800" fill="#FFB86B">🎧</text>
+    <text x="780" y="440" font-family="JetBrains Mono, monospace" font-size="10" fill="#8A919D" letter-spacing="2">LOST · 1D AGO</text>
+    <text x="780" y="470" font-family="Sora, sans-serif" font-size="18" font-weight="700" fill="#111318">Sony WH-1000XM4 headphones</text>
+    <text x="780" y="492" font-family="Inter, sans-serif" font-size="12" fill="#5F6673">Main canteen, table by window</text>
+    <rect x="780" y="508" width="80" height="22" rx="6" fill="rgba(255,184,107,0.20)"/>
+    <text x="820" y="523" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10" fill="#FFB86B">2 matches</text>
+  </g>
+
+  <!-- footer stat -->
+  <g>
+    <rect x="40" y="580" width="1120" height="100" rx="20" fill="#111318"/>
+    <text x="68" y="612" font-family="JetBrains Mono, monospace" font-size="10" fill="#8A919D" letter-spacing="2">PLATFORM STATS</text>
+    <g font-family="Sora, sans-serif" font-size="22" font-weight="800" fill="#FFFFFF">
+      <text x="68" y="650">248</text>
+      <text x="68" y="668" font-family="Inter, sans-serif" font-size="11" fill="#8A919D" font-weight="400">Items recovered</text>
+      <text x="280" y="650">62</text>
+      <text x="280" y="668" font-family="Inter, sans-serif" font-size="11" fill="#8A919D" font-weight="400">Active users</text>
+      <text x="492" y="650">94%</text>
+      <text x="492" y="668" font-family="Inter, sans-serif" font-size="11" fill="#8A919D" font-weight="400">Match accuracy</text>
+      <text x="704" y="650">12s</text>
+      <text x="704" y="668" font-family="Inter, sans-serif" font-size="11" fill="#8A919D" font-weight="400">Avg notify time</text>
+    </g>
+    <rect x="980" y="610" width="160" height="48" rx="14" fill="url(#tViolet)"/>
+    <text x="1060" y="640" text-anchor="middle" font-family="Sora, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">Post an item →</text>
+  </g>
+
+  <text x="1140" y="700" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="11" fill="#5F6673">TraceQ / community feed</text>
+</svg>

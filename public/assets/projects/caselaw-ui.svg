@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-label="CaseLaw UI detail view">
+  <defs>
+    <linearGradient id="cuBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0A0B14"/>
+      <stop offset="1" stop-color="#1A1B2E"/>
+    </linearGradient>
+    <linearGradient id="cuAcc" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6C63FF"/>
+      <stop offset="1" stop-color="#FF7AC6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#cuBg)"/>
+  <rect x="60" y="60" width="1080" height="600" rx="16" fill="#11121F"/>
+  <rect x="60" y="60" width="240" height="600" fill="#08090F"/>
+  <text x="92" y="100" font-family="Sora, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">CaseLaw</text>
+  <g font-family="Inter, sans-serif" font-size="12" fill="#8A919D">
+    <rect x="84" y="140" width="192" height="36" rx="8" fill="#1F2034"/>
+    <text x="100" y="162" fill="#FFFFFF">Federal cases</text>
+    <text x="100" y="208">State cases</text>
+    <text x="100" y="254">My queries</text>
+    <text x="100" y="300">Bookmarks</text>
+  </g>
+  <rect x="320" y="100" width="800" height="60" rx="12" fill="#1F2034"/>
+  <text x="344" y="136" font-family="Inter, sans-serif" font-size="13" fill="#8A919D">What is the standard for digital device searches at the border?</text>
+  <rect x="320" y="180" width="380" height="200" rx="14" fill="#161827"/>
+  <text x="344" y="208" font-family="JetBrains Mono, monospace" font-size="10" fill="#22D3EE" letter-spacing="2">CITED · RILEY V. CALIFORNIA</text>
+  <text x="344" y="240" font-family="Sora, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">573 U.S. 373 (2014)</text>
+  <text x="344" y="262" font-family="Inter, sans-serif" font-size="11" fill="#C7CCD4">Warrantless search of cell phone incident to arrest violates</text>
+  <text x="344" y="278" font-family="Inter, sans-serif" font-size="11" fill="#C7CCD4">the Fourth Amendment. (Unanimous opinion.)</text>
+  <rect x="344" y="304" width="100" height="22" rx="6" fill="rgba(108,99,255,0.18)"/>
+  <text x="394" y="319" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10" fill="#9B8CFF">Relevance 0.94</text>
+  <rect x="320" y="396" width="800" height="240" rx="16" fill="url(#cuAcc)" opacity="0.95"/>
+  <text x="344" y="424" font-family="JetBrains Mono, monospace" font-size="10" fill="rgba(255,255,255,0.7)" letter-spacing="2">GROUNDED ANSWER</text>
+  <text x="344" y="456" font-family="Sora, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF">Border searches of digital devices</text>
+  <text x="344" y="488" font-family="Inter, sans-serif" font-size="13" fill="rgba(255,255,255,0.92)">Courts increasingly require particularized suspicion before</text>
+  <text x="344" y="510" font-family="Inter, sans-serif" font-size="13" fill="rgba(255,255,255,0.92)">warrantless forensic search of devices at ports of entry.</text>
+  <text x="344" y="532" font-family="Inter, sans-serif" font-size="13" fill="rgba(255,255,255,0.92)">The border-search exception remains formally alive but</text>
+  <text x="344" y="554" font-family="Inter, sans-serif" font-size="13" fill="rgba(255,255,255,0.92)">has been narrowed substantially since Riley.</text>
+  <rect x="344" y="582" width="160" height="34" rx="10" fill="rgba(0,0,0,0.18)"/>
+  <text x="424" y="603" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11" fill="#FFFFFF">View sources →</text>
+</svg>

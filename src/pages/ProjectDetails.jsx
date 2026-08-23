@@ -787,7 +787,7 @@ export default function ProjectDetails() {
           content={`${project.title} | ${siteConfig.name}`}
         />
         <meta property="og:description" content={project.summary} />
-        <meta property="og:image" content="/portfolio.png" />
+        <meta property="og:image" content="/OG.png" />
         <meta property="og:type" content="article" />
         <meta
           name="twitter:title"

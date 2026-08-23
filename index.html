@@ -102,6 +102,21 @@
   </head>
   <body>
     <div id="root"></div>
+
+    <!--
+      Hidden static Netlify form. Required so Netlify's deploy bot detects
+      and registers the form during build. The visible form on /contact is
+      rendered by React; this markup is what teaches Netlify that a form
+      named "contact" exists and what fields it has.
+      See: https://docs.netlify.com/forms/setup/#hidden-form-fields
+    -->
+    <form name="contact" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="text" name="subject" />
+      <textarea name="message"></textarea>
+    </form>
+
     <script type="module" src="./src/main.jsx"></script>
   </body>
 </html>

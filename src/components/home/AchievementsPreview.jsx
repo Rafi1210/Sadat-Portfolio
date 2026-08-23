@@ -40,7 +40,7 @@ export default function AchievementsPreview() {
               <h3 className="mt-4 font-display text-[1.05rem] font-semibold tracking-tight text-ink">
                 {a.title}
               </h3>
-              <p className="mt-2 text-pretty text-[0.86rem] leading-relaxed text-ink-secondary">
+              <p className="mt-2 text-pretty text-justify text-[0.86rem] leading-relaxed text-ink-secondary">
                 {a.description}
               </p>
               <ArrowUpRight

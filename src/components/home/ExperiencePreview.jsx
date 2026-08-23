@@ -45,7 +45,7 @@ export default function ExperiencePreview() {
                   <p className="font-mono text-[0.8rem] text-ink-secondary">
                     {item.organization}
                   </p>
-                  <p className="mt-2 text-pretty text-[0.92rem] leading-relaxed text-ink-secondary">
+                  <p className="mt-2 text-pretty text-justify text-[0.92rem] leading-relaxed text-ink-secondary">
                     {item.summary}
                   </p>
                 </div>

@@ -108,7 +108,7 @@ export default function Experience() {
                         )}
                       </header>
 
-                      <p className="mt-5 text-pretty text-[0.96rem] leading-relaxed text-ink-secondary">
+                      <p className="mt-5 text-pretty text-justify text-[0.96rem] leading-relaxed text-ink-secondary">
                         {item.summary}
                       </p>
 

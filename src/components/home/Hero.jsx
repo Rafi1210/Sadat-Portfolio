@@ -112,7 +112,7 @@ export default function Hero() {
               initial="hidden"
               animate="visible"
               transition={{ duration: 0.7, ease, delay: 0.55 }}
-              className="mt-7 max-w-2xl text-pretty text-[1.05rem] leading-relaxed text-ink-secondary sm:text-[1.12rem]"
+              className="mt-7 max-w-2xl text-pretty text-justify text-[1.05rem] leading-relaxed text-ink-secondary sm:text-[1.12rem]"
             >
               I build thoughtful digital products, intelligent systems, and
               real-world software. From RAG pipelines and route optimisers to

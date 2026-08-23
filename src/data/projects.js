@@ -11,6 +11,7 @@ export const projects = [
     title: 'Dropify',
     category: 'Systems / Logistics',
     tagline: 'HERMES: hierarchical micro-clustering for last-hop delivery in Dhaka.',
+    hook: 'Taught me that the data model separating Failed from Not-attempted is what makes the next day of delivery work. Spatial optimisation is the easy half.',
     summary:
       'My undergrad capstone. A three-surface last-mile platform (Merchant, Hub Manager, Driver) built around HERMES, a hierarchical micro-clustering engine that groups nearby stops, snaps parking to road edges, plans walking loops exactly, and pairs every parcel with one of four delivery states.',
     description:
@@ -154,6 +155,7 @@ export const projects = [
     title: 'CaseLaw RAG',
     category: 'AI / Retrieval',
     tagline: 'Hybrid retrieval for U.S. federal case law.',
+    hook: 'Taught me that hybrid retrieval beats either BM25 or FAISS alone, and that showing the user *where* the answer came from is half the engineering.',
     summary:
       'A hybrid BM25 + FAISS retrieval pipeline for federal case law, grounded in LangGraph orchestration and LLaMA 3.3-70B through Groq. Wrapped in a judicial-style Gradio interface.',
     description:
@@ -228,6 +230,7 @@ export const projects = [
     title: 'Spotify Recommendation System',
     category: 'ML / Recommendation',
     tagline: 'Audio feature similarity for personalized discovery.',
+    hook: 'Taught me that for cold or casual listeners, content-based filtering beats collaborative filtering. And it is much easier to explain.',
     summary:
       'A machine-learning pipeline that ingests Spotify audio features, engineers similarity vectors, and recommends new music through a lightweight web interface.',
     description:
@@ -280,6 +283,7 @@ export const projects = [
     title: 'TraceQ',
     category: 'Web / Community',
     tagline: 'Role-based lost &amp; found for campuses.',
+    hook: 'Taught me that the same app can feel completely different to a finder, a loser, and an admin. Designing per-role views is a different discipline.',
     summary:
       'A role-based lost-and-found platform with smart item matching and real-time notifications, designed to help campuses and communities reconnect people with their belongings.',
     description:
@@ -340,6 +344,7 @@ export const projects = [
     title: 'NRF26 Event Platform',
     category: 'Event / Web',
     tagline: 'Digital infrastructure for a national robotics festival.',
+    hook: 'Taught me that shipping a working event platform in two weeks is about ruthless scope, shared visual identity, and a backend your volunteer team can actually run.',
     summary:
       'Complete digital ecosystem for EWU National RoboFest 2026: profile-frame generator, Google-Sheets-backed leaderboard, arcade game (Signal Surge), registration portal, and ambassador tools.',
     description:

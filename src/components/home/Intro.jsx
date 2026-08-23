@@ -26,7 +26,7 @@ export default function Intro() {
                 <span className="text-accent">real, useful</span> software.
               </h2>
             </Reveal>
-            <div className="mt-7 space-y-5 text-[1rem] leading-[1.85] text-ink-secondary">
+            <div className="mt-7 space-y-5 text-justify text-[1rem] leading-[1.85] text-ink-secondary">
               <Reveal>
                 <p>
                   I&apos;m a CSE undergraduate at{' '}

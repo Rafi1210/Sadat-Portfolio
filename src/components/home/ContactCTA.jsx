@@ -12,7 +12,7 @@ export default function ContactCTA() {
             Have something worth building?{" "}
             <span className="text-ink-muted">Let&apos;s talk.</span>
           </h2>
-          <p className="mt-5 max-w-xl text-pretty text-[1rem] leading-relaxed text-ink-secondary">
+          <p className="mt-5 max-w-xl text-pretty text-justify text-[1rem] leading-relaxed text-ink-secondary">
             Looking for internships, research collaborations, and software
             engineering roles. If you&apos;re building something interesting,
             reach out. I will reply.

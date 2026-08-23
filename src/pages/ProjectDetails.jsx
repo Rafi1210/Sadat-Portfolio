@@ -210,7 +210,7 @@ function SurfaceCard({ surface }) {
       <h3 className="mt-3 font-display text-[1.35rem] font-bold tracking-tight text-ink">
         {surface.label}
       </h3>
-      <p className="mt-2 text-[0.94rem] leading-relaxed text-ink-secondary">
+      <p className="mt-2 text-pretty text-justify text-[0.94rem] leading-relaxed text-ink-secondary">
         {surface.summary}
       </p>
 
@@ -779,9 +779,21 @@ export default function ProjectDetails() {
     <>
       <Helmet>
         <title>
-          {project.title} / {project.category} / {siteConfig.name}
+          {project.title} | {siteConfig.name}
         </title>
         <meta name="description" content={project.summary} />
+        <meta
+          property="og:title"
+          content={`${project.title} | ${siteConfig.name}`}
+        />
+        <meta property="og:description" content={project.summary} />
+        <meta property="og:image" content="/portfolio.png" />
+        <meta property="og:type" content="article" />
+        <meta
+          name="twitter:title"
+          content={`${project.title} | ${siteConfig.name}`}
+        />
+        <meta name="twitter:description" content={project.summary} />
       </Helmet>
 
       <article>
@@ -821,10 +833,22 @@ export default function ProjectDetails() {
                   {project.title}
                 </h1>
                 <Reveal>
-                  <p className="mt-5 max-w-2xl text-pretty text-[1.05rem] leading-relaxed text-ink-secondary sm:text-[1.12rem]">
+                  <p className="mt-5 max-w-2xl text-pretty text-justify text-[1.05rem] leading-relaxed text-ink-secondary sm:text-[1.12rem]">
                     {project.tagline || project.summary}
                   </p>
                 </Reveal>
+                {project.hook && (
+                  <Reveal>
+                    <div className="mt-6 max-w-2xl border-l-2 border-accent pl-4">
+                      <p className="font-mono text-[0.62rem] uppercase tracking-[0.18em] text-accent">
+                        // why it matters
+                      </p>
+                      <p className="mt-1.5 text-pretty text-justify text-[0.98rem] leading-relaxed text-ink">
+                        {project.hook}
+                      </p>
+                    </div>
+                  </Reveal>
+                )}
               </div>
 
               <Reveal className="md:col-span-4">
@@ -992,7 +1016,7 @@ export default function ProjectDetails() {
                   How the pieces fit together
                 </h3>
                 {project.architectureImage.caption && (
-                  <p className="mt-3 text-[0.98rem] leading-relaxed text-ink-secondary">
+                  <p className="mt-3 text-pretty text-justify text-[0.98rem] leading-relaxed text-ink-secondary">
                     {project.architectureImage.caption}
                   </p>
                 )}
@@ -1143,7 +1167,7 @@ export default function ProjectDetails() {
                     <span className="font-mono text-[0.72rem] uppercase tracking-[0.16em] text-ink-muted">
                       0{i + 1}
                     </span>
-                    <span className="text-[0.96rem] leading-relaxed text-ink-secondary">
+                    <span className="text-justify text-[0.96rem] leading-relaxed text-ink-secondary">
                       {c}
                     </span>
                   </li>
@@ -1172,7 +1196,7 @@ export default function ProjectDetails() {
                     <span className="font-mono text-[0.72rem] uppercase tracking-[0.16em] text-ink-muted">
                       0{i + 1}
                     </span>
-                    <span className="text-[0.96rem] leading-relaxed text-ink-secondary">
+                    <span className="text-justify text-[0.96rem] leading-relaxed text-ink-secondary">
                       {c}
                     </span>
                   </li>

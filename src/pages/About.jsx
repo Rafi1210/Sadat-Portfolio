@@ -50,9 +50,62 @@ export default function About() {
       </section>
 
       <section className="pb-20 sm:pb-24">
+        <div className="container-page grid gap-10 md:grid-cols-12 md:items-center">
+          <Reveal className="md:col-span-4">
+            <div className="relative mx-auto w-full max-w-[280px]">
+              <div className="relative aspect-square overflow-hidden rounded-3xl border border-line bg-surface shadow-soft">
+                <img
+                  src="/assets/portrait.jpg"
+                  alt="Portrait of Md. Sadat Ahmed Rafi"
+                  className="absolute inset-0 h-full w-full object-cover"
+                />
+              </div>
+              <div className="absolute -bottom-4 -right-4 hidden rounded-2xl border border-line bg-surface px-3 py-2 shadow-soft sm:block">
+                <p className="font-mono text-[0.62rem] uppercase tracking-[0.18em] text-ink-muted">
+                  he / him
+                </p>
+                <p className="mt-0.5 font-display text-[0.95rem] font-semibold text-ink">
+                  {siteConfig.shortName}.
+                </p>
+              </div>
+            </div>
+          </Reveal>
+
+          <Reveal className="md:col-span-8">
+            <p className="font-mono text-[0.72rem] uppercase tracking-[0.18em] text-ink-muted">
+              // in one breath
+            </p>
+            <h2 className="mt-3 font-display text-[clamp(1.7rem,4vw,2.6rem)] font-extrabold leading-[1.1] tracking-tightest text-ink">
+              CSE undergrad, building software that earns its place on your screen.
+            </h2>
+            <p className="mt-5 max-w-2xl text-pretty text-justify text-[1.05rem] leading-relaxed text-ink-secondary">
+              I split time between frontend engineering and ML systems, with a
+              soft spot for spatial graphs, retrieval pipelines, and the quiet
+              plumbing that makes interfaces feel honest. Right now I'm
+              actively learning full-stack engineering and system design,
+              chasing the gap between shipping a clean UI and knowing what
+              happens underneath it.
+            </p>
+            <div className="mt-6 flex flex-wrap gap-2">
+              <span className="inline-flex items-center gap-1.5 rounded-full border border-line bg-surface-soft px-3 py-1 font-mono text-[0.7rem] text-ink-secondary">
+                <span className="h-1.5 w-1.5 rounded-full bg-accent" />
+                Open to SWE &amp; AI roles
+              </span>
+              <span className="inline-flex items-center gap-1.5 rounded-full border border-line bg-surface-soft px-3 py-1 font-mono text-[0.7rem] text-ink-secondary">
+                Dhaka, Bangladesh
+              </span>
+              <span className="inline-flex items-center gap-1.5 rounded-full border border-line bg-surface-soft px-3 py-1 font-mono text-[0.7rem] text-ink-secondary">
+                CSE · East West University
+              </span>
+            </div>
+          </Reveal>
+        </div>
+      </section>
+
+      <section className="border-t border-line py-20 sm:py-24">
         <div className="container-page grid gap-12 md:grid-cols-12">
           <div className="md:col-span-7">
-            <div className="space-y-6 text-[1.02rem] leading-[1.85] text-ink-secondary">
+            <div className="space-y-6 text-justify text-[1.02rem] leading-[1.85] text-ink-secondary">
               <Reveal>
                 <p>
                   I&apos;m a CSE undergraduate at{' '}
@@ -172,7 +225,7 @@ export default function About() {
                 <h3 className="mt-2 font-display text-lg font-semibold tracking-tight text-ink">
                   {item.title}
                 </h3>
-                <p className="mt-3 text-pretty text-[0.94rem] leading-relaxed text-ink-secondary">
+                <p className="mt-3 text-pretty text-justify text-[0.94rem] leading-relaxed text-ink-secondary">
                   {item.body}
                 </p>
               </motion.li>
@@ -228,7 +281,7 @@ export default function About() {
             <p className="label-mono">// currently exploring</p>
           </div>
           <div className="md:col-span-8">
-            <p className="text-pretty text-[1rem] leading-relaxed text-ink-secondary">
+            <p className="text-pretty text-justify text-[1rem] leading-relaxed text-ink-secondary">
               Right now, I&apos;m digging deeper into retrieval-augmented
               systems with agent graphs, graph-based optimisation for real
               road networks, and small-scale fine-tuning experiments. I read

@@ -133,7 +133,7 @@ export default function ProjectCard({
         >
           {project.title}
         </h3>
-        <p className="mt-2 max-w-prose text-balance text-[0.96rem] leading-relaxed text-ink-secondary">
+        <p className="mt-2 max-w-prose text-justify text-[0.96rem] leading-relaxed text-ink-secondary">
           {project.tagline || project.summary}
         </p>
       </Link>

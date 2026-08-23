@@ -18,7 +18,7 @@ export default function ResearchPreview() {
               <h3 className="font-display text-[1.05rem] font-semibold tracking-tight text-ink">
                 Research interests
               </h3>
-              <p className="mt-3 text-pretty text-[0.92rem] leading-relaxed text-ink-secondary">
+              <p className="mt-3 text-pretty text-justify text-[0.92rem] leading-relaxed text-ink-secondary">
                 Drawn to problems at the intersection of AI systems,
                 optimisation, and real-world logistics. Interested in how
                 retrieval-augmented generation and graph-based optimisation
@@ -41,7 +41,7 @@ export default function ResearchPreview() {
               <h3 className="font-display text-[1.05rem] font-semibold tracking-tight text-ink">
                 Ongoing work
               </h3>
-              <p className="mt-3 text-pretty text-[0.92rem] leading-relaxed text-ink-secondary">
+              <p className="mt-3 text-pretty text-justify text-[0.92rem] leading-relaxed text-ink-secondary">
                 Developing Dropify as a research-grade delivery optimisation
                 system. Exploring edge-based interpolation models with
                 Shapely and OSM node snapping. Also conducting applied data

@@ -2,17 +2,30 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#F7F8FA" />
 
+    <!-- Icons (Android/Chrome prefer PNG, iOS prefers apple-touch-icon, Google prefers .ico) -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+
+    <!-- Viewport + theme colors -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#6C63FF" />
+    <meta name="color-scheme" content="light" />
+
+    <!-- Web app manifest (PWA / Add to Home Screen) -->
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Canonical + primary meta -->
     <title>Md. Sadat Ahmed Rafi | Software Engineer & AI/ML Builder</title>
     <meta
       name="description"
-      content="Md. Sadat Ahmed Rafi. CSE undergraduate at East West University. Software engineer and AI/ML builder working on last-mile delivery, retrieval systems, and end-to-end product engineering."
+      content="Md. Sadat Ahmed Rafi. Software engineer and AI/ML builder. CSE undergraduate at East West University, open to SWE and AI roles."
     />
     <meta name="author" content="Md. Sadat Ahmed Rafi" />
-    <meta name="theme-color" content="#6C63FF" />
+    <link rel="canonical" href="https://sadat-dev-portfolio.netlify.app" />
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
@@ -20,13 +33,15 @@
     <meta property="og:title" content="Md. Sadat Ahmed Rafi | Software Engineer & AI/ML Builder" />
     <meta
       property="og:description"
-      content="Software engineer and AI/ML builder. Capstone author of Dropify, a last-mile delivery platform with HERMES, a hierarchical micro-clustering engine."
+      content="Software engineer and AI/ML builder. Capstone author of Dropify, a last-mile delivery platform with HERMES."
     />
-    <meta property="og:image" content="/OG.png" />
+    <meta property="og:image" content="https://sadat-dev-portfolio.netlify.app/OG.png" />
+    <meta property="og:image:secure_url" content="https://sadat-dev-portfolio.netlify.app/OG.png" />
+    <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:image:alt" content="Md. Sadat Ahmed Rafi — Software Engineer & AI/ML Builder" />
-    <meta property="og:url" content="https://rafi.dev" />
+    <meta property="og:url" content="https://sadat-dev-portfolio.netlify.app" />
     <meta property="og:locale" content="en_US" />
 
     <!-- Twitter / X -->
@@ -36,11 +51,51 @@
       name="twitter:description"
       content="Software engineer and AI/ML builder. Capstone author of Dropify, a last-mile delivery platform with HERMES."
     />
-    <meta name="twitter:image" content="/OG.png" />
+    <meta name="twitter:image" content="https://sadat-dev-portfolio.netlify.app/OG.png" />
     <meta name="twitter:image:alt" content="Md. Sadat Ahmed Rafi — Software Engineer & AI/ML Builder" />
 
-    <link rel="canonical" href="https://rafi.dev" />
+    <!-- Structured data: Person schema for portfolio owner -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Md. Sadat Ahmed Rafi",
+        "alternateName": "Rafi",
+        "url": "https://sadat-dev-portfolio.netlify.app",
+        "image": "https://sadat-dev-portfolio.netlify.app/OG.png",
+        "jobTitle": "Software Engineer & AI/ML Builder",
+        "description": "Software engineer and AI/ML builder. CSE undergraduate at East West University, open to SWE and AI roles.",
+        "email": "mailto:sadatahmedrafi@gmail.com",
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "East West University",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Dhaka",
+            "addressCountry": "BD"
+          }
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Dhaka",
+          "addressCountry": "BD"
+        },
+        "knowsAbout": [
+          "Software Engineering",
+          "Machine Learning",
+          "Retrieval-Augmented Generation",
+          "Graph Optimisation",
+          "Frontend Engineering",
+          "Last-mile Delivery Systems"
+        ],
+        "sameAs": [
+          "https://github.com/Rafi1210",
+          "https://codeforces.com/profile/Rafi1210"
+        ]
+      }
+    </script>
 
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Sora:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />

@@ -17,6 +17,10 @@ export default function Home() {
         <meta name="description" content={siteConfig.metadata.description} />
         <meta property="og:title" content={siteConfig.metadata.title} />
         <meta property="og:description" content={siteConfig.metadata.description} />
+        <meta property="og:url" content={siteConfig.metadata.siteUrl} />
+        <meta property="og:image" content={`${siteConfig.metadata.siteUrl}/OG.png`} />
+        <meta name="twitter:image" content={`${siteConfig.metadata.siteUrl}/OG.png`} />
+        <link rel="canonical" href={siteConfig.metadata.siteUrl} />
       </Helmet>
       <Hero />
       <FeaturedProjects />

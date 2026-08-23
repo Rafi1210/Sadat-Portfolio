@@ -1,0 +1,30 @@
+{
+  "name": "Md. Sadat Ahmed Rafi — Software Engineer & AI/ML Builder",
+  "short_name": "Rafi",
+  "description": "Portfolio of Md. Sadat Ahmed Rafi. Software engineer and AI/ML builder, CSE undergraduate at East West University.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#F7F8FA",
+  "theme_color": "#6C63FF",
+  "icons": [
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/OG.png",
+      "sizes": "1200x630",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

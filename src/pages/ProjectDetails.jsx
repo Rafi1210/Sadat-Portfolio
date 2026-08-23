@@ -787,13 +787,16 @@ export default function ProjectDetails() {
           content={`${project.title} | ${siteConfig.name}`}
         />
         <meta property="og:description" content={project.summary} />
-        <meta property="og:image" content="/OG.png" />
+        <meta property="og:image" content={`${siteConfig.metadata.siteUrl}/OG.png`} />
+        <meta property="og:url" content={`${siteConfig.metadata.siteUrl}/projects/${slug}`} />
         <meta property="og:type" content="article" />
         <meta
           name="twitter:title"
           content={`${project.title} | ${siteConfig.name}`}
         />
         <meta name="twitter:description" content={project.summary} />
+        <meta name="twitter:image" content={`${siteConfig.metadata.siteUrl}/OG.png`} />
+        <link rel="canonical" href={`${siteConfig.metadata.siteUrl}/projects/${slug}`} />
       </Helmet>
 
       <article>

@@ -1,0 +1,10 @@
+
+# Netlify SPA routing: serve index.html for any path that isn't a real file or
+# folder. The "200" status makes this a rewrite (no redirect), so the URL bar
+# keeps showing /projects/dropify etc. while the React Router renders the page.
+#
+# Refs:
+#   https://docs.netlify.com/routing/redirects/rewrites-guide/
+#   https://docs.netlify.com/routing/redirects/#syntax-for-the-redirects-file
+
+/*    /index.html   200

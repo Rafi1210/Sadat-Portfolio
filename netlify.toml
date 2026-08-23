@@ -1,0 +1,46 @@
+# Netlify build + headers config for the portfolio.
+#
+# Two fixes live here:
+#   1. Custom Cache-Control headers for OG crawlers — without these, the
+#      Messaging/WhatsApp/LinkedIn image-cache can pin the OLD og:image (or
+#      the old canonical) forever, even after you deploy a fix. With this
+#      header, they re-fetch on every share.
+#   2. SPA rewrite rule (also covered by public/_redirects for redundancy).
+
+[build]
+  publish = "dist"
+  command = "npm run build"
+
+# --- Headers --------------------------------------------------------------
+# Apply long cache for fingerprinted assets (JS/CSS/images with hashes),
+# but force revalidation for the document so crawlers see fresh OG meta.
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    # Default: revalidate every visit. OG scrapers + browsers all re-fetch.
+    Cache-Control = "public, max-age=0, must-revalidate"
+    # Helpful for browsers and crawlers that negotiate content type.
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+
+# Long-cache hashed assets. Vite emits fingerprinted filenames like
+# /assets/index-AB12CD34.js, so this is safe for 1 year.
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/OG.png"
+  [headers.values]
+    # Allow long cache for the OG image itself (it has its own URL —
+    # but the document must re-fetch it explicitly).
+    Cache-Control = "public, max-age=86400"
+
+# --- SPA fallback (also in public/_redirects; redundant by design) -------
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

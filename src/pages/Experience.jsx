@@ -10,7 +10,7 @@ export default function Experience() {
   return (
     <>
       <Helmet>
-        <title>Experience — {siteConfig.name}</title>
+        <title>Experience | {siteConfig.name}</title>
         <meta
           name="description"
           content="Leadership roles, technical direction, and the work behind them."
@@ -22,7 +22,7 @@ export default function Experience() {
           <SectionHeading
             label="experience"
             title="A focused timeline."
-            description="Roles I've held — what I owned, what I learned, and what changed."
+            description="Roles I have held: what I owned, what I learned, and what changed."
           />
         </div>
       </section>

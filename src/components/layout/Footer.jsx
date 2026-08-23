@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Mail, ArrowUpRight } from 'lucide-react';
 import SocialLinks from '@/components/common/SocialLinks';
 import { siteConfig } from '@/data/siteConfig';
 
@@ -19,9 +20,17 @@ export default function Footer() {
             </p>
             <a
               href={`mailto:${siteConfig.email}`}
-              className="link-underline mt-3 inline-block text-ink-secondary transition-colors hover:text-ink"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group mt-4 inline-flex items-center gap-2.5 rounded-full bg-ink px-4 py-2 text-[0.82rem] font-semibold text-bg transition-all hover:-translate-y-0.5 hover:shadow-soft"
             >
-              {siteConfig.email}
+              <Mail size={14} strokeWidth={2} />
+              <span>{siteConfig.email}</span>
+              <ArrowUpRight
+                size={13}
+                strokeWidth={2}
+                className="transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
+              />
             </a>
           </motion.div>
           <motion.div

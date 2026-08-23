@@ -57,7 +57,7 @@ function Stat({ label, value, loading }) {
         {loading ? (
           <span className="inline-block h-7 w-16 animate-pulse rounded bg-surface-soft" />
         ) : (
-          value ?? '—'
+          value ?? 'N/A'
         )}
       </p>
     </div>
@@ -69,7 +69,7 @@ export default function Contact() {
   return (
     <>
       <Helmet>
-        <title>Contact — {siteConfig.name}</title>
+        <title>Contact | {siteConfig.name}</title>
         <meta
           name="description"
           content="Get in touch for internships, SWE roles, or research collaborations."
@@ -81,7 +81,7 @@ export default function Contact() {
           <SectionHeading
             label="contact"
             title="Have something worth building?"
-            description="I read every message. Pick whichever channel is easiest — I'll reply."
+            description="I read every message. Pick whichever channel is easiest. I will reply."
           />
         </div>
       </section>
@@ -158,7 +158,7 @@ export default function Contact() {
                 </a>
                 {status === 'error' && (
                   <p className="mt-3 font-mono text-[0.72rem] text-ink-muted">
-                    Live data unavailable — handle:{' '}
+                    Live data unavailable. Handle:{' '}
                     {siteConfig.socials.codeforcesHandle}
                   </p>
                 )}

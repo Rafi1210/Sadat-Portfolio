@@ -13,7 +13,7 @@ export default function ExperiencePreview() {
           <SectionHeading
             label="experience"
             title="Where I've shown up."
-            description="Leadership and technical roles — focused on getting things shipped."
+            description="Leadership and technical roles focused on getting things shipped."
           />
           <Link
             to="/experience"

@@ -1,10 +1,9 @@
 import { useEffect, useRef, useState } from 'react';
 import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion';
-import { ArrowUpRight, MapPin, Sparkles, Mail } from 'lucide-react';
+import { ArrowUpRight, MapPin, Mail } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { siteConfig } from '@/data/siteConfig';
 import Button from '@/components/common/Button';
-import Badge from '@/components/common/Badge';
 import { tiltLoop, blurIn } from '@/lib/motion';
 
 const ease = [0.22, 1, 0.36, 1];
@@ -74,20 +73,7 @@ export default function Hero() {
       <div className="container-page relative">
         <div className="grid gap-12 md:grid-cols-12 md:items-start">
           <div className="md:col-span-8">
-            <motion.div
-              initial={{ opacity: 0, y: 14, scale: 0.96 }}
-              animate={{ opacity: 1, y: 0, scale: 1 }}
-              transition={{ duration: 0.6, ease, delay: 0.05 }}
-              className="flex flex-wrap items-center gap-2"
-            >
-              <Badge variant="accent" className="gap-2 shimmer">
-                <span className="avail-dot" aria-hidden />
-                <Sparkles size={11} strokeWidth={2} />
-                Available <span className="opacity-50">/</span> Open to SWE &amp; AI roles
-              </Badge>
-            </motion.div>
-
-            <h1 className="mt-6 font-display text-[clamp(2.9rem,7.5vw,5.8rem)] font-extrabold leading-[0.96] tracking-tightest text-ink">
+            <h1 className="font-display text-[clamp(2.9rem,7.5vw,5.8rem)] font-extrabold leading-[0.96] tracking-tightest text-ink">
               <span className="block">
                 {lineOne.map((word, i) => (
                   <motion.span

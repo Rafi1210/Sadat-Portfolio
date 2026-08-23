@@ -50,12 +50,6 @@ export default function Navbar() {
             className="group flex items-center gap-2.5 font-display text-[1rem] font-bold tracking-[0.12em] text-ink"
             aria-label={`${siteConfig.name} - Home`}
           >
-            <motion.span
-              animate={{ scale: [1, 1.18, 1] }}
-              transition={{ duration: 2.4, repeat: Infinity, ease: 'easeInOut' }}
-              className="avail-dot"
-              aria-hidden
-            />
             <span className="transition-colors group-hover:text-accent">
               {siteConfig.shortName.toUpperCase()}.
             </span>
@@ -77,22 +71,7 @@ export default function Navbar() {
                       )
                     }
                   >
-                    {({ isActive }) => (
-                      <>
-                        <span>{item.label}</span>
-                        {isActive && (
-                          <motion.span
-                            layoutId="nav-active"
-                            className="absolute inset-0 -z-10 rounded-full bg-surface-soft"
-                            transition={{
-                              type: 'spring',
-                              stiffness: 360,
-                              damping: 32,
-                            }}
-                          />
-                        )}
-                      </>
-                    )}
+                    <span>{item.label}</span>
                   </NavLink>
                 </li>
               ))}

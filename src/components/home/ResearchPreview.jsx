@@ -43,14 +43,14 @@ export default function ResearchPreview() {
               </h3>
               <p className="mt-3 text-pretty text-[0.92rem] leading-relaxed text-ink-secondary">
                 Developing Dropify as a research-grade delivery optimisation
-                system — exploring edge-based interpolation models with
+                system. Exploring edge-based interpolation models with
                 Shapely and OSM node snapping. Also conducting applied data
                 mining research across clustering, text mining, and
                 association-rule learning.
               </p>
               <div className="mt-5 inline-flex items-center gap-2 rounded-xl border border-line bg-surface-soft px-3 py-2 font-mono text-[0.74rem] text-ink-muted">
                 <span className="h-1.5 w-1.5 rounded-full bg-accent" />
-                Publications in progress — coming soon.
+                Publications in progress. Coming soon.
               </div>
             </div>
           </Reveal>

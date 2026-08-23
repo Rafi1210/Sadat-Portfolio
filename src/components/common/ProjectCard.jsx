@@ -165,7 +165,15 @@ export default function ProjectCard({
       </a>
 
       <div className="mt-6 flex flex-wrap items-end justify-between gap-4">
-        <TechStack items={project.stack || project.technologies} />
+        <TechStack
+          items={
+            Array.isArray(project.stack) &&
+            project.stack.length > 0 &&
+            typeof project.stack[0] === 'object' && project.stack[0].techs
+              ? project.stack.flatMap((g) => g.techs)
+              : project.stack || project.technologies
+          }
+        />
         <motion.div
           initial="hidden"
           whileInView="visible"

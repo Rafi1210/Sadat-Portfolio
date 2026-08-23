@@ -25,8 +25,8 @@ export const siteConfig = {
     'Open to SWE & AI Roles',
   ],
   metadata: {
-    title: 'Md. Sadat Ahmed Rafi — Software Engineer & AI/ML Builder',
+    title: 'Md. Sadat Ahmed Rafi | Software Engineer & AI/ML Builder',
     description:
-      'Portfolio of Md. Sadat Ahmed Rafi — software engineer & AI/ML builder. CSE undergraduate at East West University, ex-President of EWU Robotics Club, currently open to new SWE and AI roles.',
+      'Portfolio of Md. Sadat Ahmed Rafi. Software engineer & AI/ML builder. CSE undergraduate at East West University, ex-President of EWU Robotics Club, currently open to new SWE and AI roles.',
   },
 };

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <rect width="1600" height="900" fill="#F7F8FA"/>
+  <text x="48" y="48" font-family="ui-monospace, monospace" font-size="22" fill="#111318" font-weight="600">Dropify · System Architecture</text>
+  <text x="48" y="74" font-family="ui-monospace, monospace" font-size="14" fill="#8A919D">placeholder · dropify-architecture.png</text>
+  <text x="800" y="480" text-anchor="middle" font-family="ui-monospace, monospace" font-size="28" fill="#5F6673">Architecture diagram placeholder</text>
+</svg>

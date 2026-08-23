@@ -8,7 +8,7 @@ export const achievements = [
   {
     id: 'nrf26',
     title: 'National RoboFest',
-    description: 'Directed Bangladesh\'s National Robotics Festival — 2,000+ participants, 80+ institutions.',
+    description: 'Directed Bangladesh\'s National Robotics Festival: 2,000+ participants, 80+ institutions.',
     icon: 'Rocket',
   },
   {
@@ -20,7 +20,7 @@ export const achievements = [
   {
     id: 'ctf',
     title: 'CTF Challenges',
-    description: 'Active in cybersecurity CTFs — cryptography, forensics, and web exploitation.',
+    description: 'Active in cybersecurity CTFs: cryptography, forensics, and web exploitation.',
     icon: 'ShieldHalf',
   },
   {
